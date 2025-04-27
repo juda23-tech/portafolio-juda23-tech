@@ -220,3 +220,12 @@ h1 {
 .btn-contacto:hover {
     background-color: #0059b3;
 }
+
+.footer {
+    background-color: #0a0a23;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    margin-top: 50px;
+    font-size: 0.9em;
+}
