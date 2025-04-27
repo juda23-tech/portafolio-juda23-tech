@@ -77,9 +77,49 @@ h1 {
     text-align: center;
 }
 
+
 .sobre-mi p {
     font-size: 1.1em;
     margin-bottom: 15px;
     line-height: 1.8;
     text-align: justify;
+}
+
+.proyectos {
+    padding: 60px 20px;
+    background-color: #ffffff;
+    color: #333;
+    max-width: 1100px;
+    margin: 50px auto;
+    border-radius: 8px;
+}
+
+.proyectos h2 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+    color: #003366;
+    text-align: center;
+}
+
+.proyecto-card {
+    background-color: #f0f4f8;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.05);
+    text-align: center;
+    margin-top: 30px;
+}
+
+.proyecto-img {
+    width: 120px;
+    height: auto;
+    margin-bottom: 15px;
+}
+
+.proyecto-botones {
+    margin-top: 15px;
+}
+
+.proyecto-botones .btn {
+    margin-right: 10px;
 }
