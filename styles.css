@@ -184,3 +184,39 @@ h1 {
 .chip:hover {
     background-color: #0059b3;
 }
+
+.contacto {
+    padding: 60px 20px;
+    background-color: #ffffff;
+    color: #333;
+    max-width: 800px;
+    margin: 50px auto;
+    text-align: center;
+    border-radius: 8px;
+}
+
+.contacto h2 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+    color: #003366;
+}
+
+.contacto p {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+}
+
+.btn-contacto {
+    display: inline-block;
+    padding: 12px 25px;
+    background-color: #003366;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.btn-contacto:hover {
+    background-color: #0059b3;
+}
