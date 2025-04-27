@@ -1,0 +1,85 @@
+/* Reset general */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilo del body */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f8f9fa;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Encabezado principal */
+.main-header {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    background-color: #ffffff;
+    border-bottom: 2px solid #e0e0e0;
+}
+
+.logo {
+    width: 60px;
+    height: auto;
+    margin-right: 15px;
+}
+
+h1 {
+    font-size: 24px;
+}
+
+/* Sección de introducción */
+.intro {
+    text-align: center;
+    padding: 100px 20px;
+    background: linear-gradient(to right, #000428, #004e92);
+    color: white;
+}
+
+.intro h2 {
+    font-size: 2.5em;
+    margin-bottom: 10px;
+}
+
+.intro p {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+}
+
+.btn {
+    padding: 12px 25px;
+    background-color: #d4af37;
+    color: #000;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* NUEVA sección: Sobre mí */
+.sobre-mi {
+    padding: 60px 20px;
+    background-color: #f0f4f8;
+    color: #333;
+    max-width: 900px;
+    margin: 50px auto;
+    border-radius: 8px;
+}
+
+.sobre-mi h2 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+    color: #003366;
+    text-align: center;
+}
+
+.sobre-mi p {
+    font-size: 1.1em;
+    margin-bottom: 15px;
+    line-height: 1.8;
+    text-align: justify;
+}
